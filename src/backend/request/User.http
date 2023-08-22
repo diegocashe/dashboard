@@ -1,0 +1,23 @@
+# POST http://localhost:1234/users
+# Content-Type: application/json
+
+# {
+#     "email": "andresvp257@gmail.com",
+#     "username": "Savage Blue",
+#     "name": "Andres Villasmil",
+#     "address": {
+#         "country": "Venezuela",
+#         "city": "Maracaibo"
+#     }
+# }
+
+PATCH http://localhost:1234/users/64d5a5a45e1fe078363d69e9
+Content-Type: application/json
+    
+{
+    "username": "ferxxo23",
+    "address": {
+        "city": "Buenos Aires",
+        "country": "Argentina"
+    }
+}
